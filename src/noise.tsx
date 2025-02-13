@@ -1,7 +1,16 @@
 import './noise.css';
+import {CSSProperties} from "react";
 
-export default function Noise() {
+interface NoiseProps {
+    opacity?: number;
+    style?: CSSProperties;
+}
+
+export default function Noise({ opacity = 0.06, style = {} }: NoiseProps) {
     return (
-        <div className="noise" />
+        <div className="noise" style={{
+            opacity,
+            ...style
+        }}/>
     )
 }
