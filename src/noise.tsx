@@ -1,5 +1,5 @@
 import './noise.css';
-import {CSSProperties} from "react";
+import { CSSProperties } from "react";
 
 interface NoiseProps {
     opacity?: number;

@@ -8,6 +8,6 @@
     opacity: 0.06;
     background-size: 109px;
     background-repeat: repeat;
-    background-image: url('/noise.png');
+    background-image: url('./noise.png');
     pointer-events: none;
 }
