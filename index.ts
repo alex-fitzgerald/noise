@@ -1,0 +1,1 @@
+export { Noise } from './src';
